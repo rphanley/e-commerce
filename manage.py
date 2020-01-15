@@ -12,7 +12,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ecommerce.ecommerce.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ecommerce.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError:

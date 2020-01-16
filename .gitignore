@@ -2,3 +2,8 @@ env.py
 .theia/
 __pycache__/
 .sqlite3
+*.png
+*.jpg
+static/
+media/
+

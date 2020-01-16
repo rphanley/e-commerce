@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ae32be17-3bc0-46a9-ad73-96442b870ac1.ws-eu01.gitpod.io','localhost',os.environ.get('HOSTNAME')]
+ALLOWED_HOSTS = ['localhost', os.environ.get('HOSTNAME'), 'rory-ecommerce.herokuapp.com']
 
 
 # Application definition
@@ -96,7 +96,7 @@ else:
         }
     }
 
- 
+
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
